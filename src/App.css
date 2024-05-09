@@ -1,0 +1,41 @@
+body{
+  width: 700px;
+  margin: 200px auto;
+}
+.KeyBoard>input{
+  display: flex;
+  width: 70px;
+  height: 70px;
+  background-color: rgb(24, 228, 228);
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 900;
+  border-radius: 5px;
+}
+.KeyBoard>input:hover{
+  cursor: pointer;
+}
+.KeyBoard{
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(5,80px);
+}
+.Output{
+  width: inherit;
+  height: 50px;
+  background-color: antiquewhite;
+  margin-bottom: 20px;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 24px;
+}
+.Calc{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
